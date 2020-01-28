@@ -5,9 +5,9 @@
   <img alt="Desafio01" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
 <h1/>
 
-<p align="center">
+<h3 align="center">
   Resolução do Desafio 01 
-</p>
+</h3>
 
 ## O Desafio
 
@@ -25,3 +25,16 @@ e para checar se um projeto existe, verificando seu id.
 - `Get /projects/:id`: Adicionei uma outra requisição Get para retornar um projeto específico buscando por seu id. 
 
 ## Para testar o projeto
+1. Clone o repositório para uma pasta local:
+```bash
+git clone git@github.com:redpeds/bootcamp-gostack-desafio01.git
+```
+2. Ainda dentro da pasta execute o comando yarn para instalar as dependências:
+```bash
+yarn install
+```
+3. Execute o projeto
+```bash
+yarn dev
+```
+4. Teste a aplicação usando o endereço `http://localhost:3000` e não se esqueça de utilizar as Rotas para criar ou listar projetos.
